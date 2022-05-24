@@ -8,10 +8,12 @@ public class Aula03tiposPrimitivosExercicio {
         String endereco = "Avenida Brasil";
         double salario = 5403.23;
         String dataRecebimentoSalario = "10/10/22";
-        System.out.println("Eu " + nome + "Morado do Endereço " + endereco + "Valor do salario " + salario + " Data de receber " + dataRecebimentoSalario);
+        System.out.println("Eu " + nome + "Morado do Endereço " + endereco + "Valor do salario " + salario + "" +
+                " Data de receber " + dataRecebimentoSalario);
 
     }
 }
+
 
 
 
