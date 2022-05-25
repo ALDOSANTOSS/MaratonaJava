@@ -1,5 +1,7 @@
 package academy.devdojo.maratonajava.introducao;
 
+import java.util.Scanner;
+
 public class Aula04OperadoresArimeticos {
     public static void main(String[] args) {
 
@@ -66,6 +68,20 @@ public class Aula04OperadoresArimeticos {
         contador++;
         contador--;
         System.out.println(contador);
+
+
+        // Condicional if / else
+
+        //O que é o if?
+        //“If” pode ser traduzido em língua portuguesa por “se”, no sentido de “em caso de”.
+        // Portanto, pode não ser muito difícil de compreendermos o que esse comando oferece.
+
+        // if(condição){
+        ////comando a ser executado SE a condição for cumprida
+        //}
+
+
+
 
 
     }
