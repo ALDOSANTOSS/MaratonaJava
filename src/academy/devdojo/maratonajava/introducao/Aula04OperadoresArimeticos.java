@@ -29,6 +29,44 @@ public class Aula04OperadoresArimeticos {
         System.out.println(isDezIgualDez);
         System.out.println(isDezDiferenteDez);
 
+        // && = e (AND) // (or) !
+
+        int idade = 35;
+        float salario = 3500F;
+        boolean isDentroDaLeiMaiorQueTrinta = idade >= 30 && salario >= 4621;
+        boolean isDentroDaMenorQueTrinta = idade < 30 && salario >= 3200;
+        boolean isDentroDaLei = idade < 30 && salario <= 3000;
+        System.out.println(isDentroDaLeiMaiorQueTrinta);
+        System.out.println(isDentroDaMenorQueTrinta);
+        System.out.println(isDentroDaLei);
+
+        // logico OR
+
+        double valorTotalContaCorrente = 200;
+        double valorTotalContaPoupanca = 10000;
+        float valorPlaystation = 5000F;
+        boolean isPlayCincoCompravel = valorTotalContaCorrente > valorPlaystation || valorTotalContaPoupanca > valorPlaystation;
+        System.out.println("isPlayCincoCompravel " + isPlayCincoCompravel);
+
+        // Atribuicao += -+ *= /= %=
+
+        double bonus = 1800;
+        bonus += 1000;
+        bonus -= 1000;
+        bonus *= 2;
+        bonus /= 2;
+        bonus %= 2;
+
+        System.out.println(bonus);
+
+        // ++ --
+
+        int contador = 0;
+        contador += 1; // contador = contador
+        contador++;
+        contador--;
+        System.out.println(contador);
+
 
     }
 
