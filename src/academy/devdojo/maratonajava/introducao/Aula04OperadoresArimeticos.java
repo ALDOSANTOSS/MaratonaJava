@@ -80,6 +80,8 @@ public class Aula04OperadoresArimeticos {
         ////comando a ser executado SE a condição for cumprida
         //}
 
+        // https://blog.betrybe.com/if-else-java/#2
+
 
 
 

@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.introducao.listaExercicio;
+package academy.devdojo.maratonajava.introducao.lista.condicional.exercicio;
 
 import java.util.Scanner;
 
