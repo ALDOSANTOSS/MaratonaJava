@@ -20,6 +20,7 @@ public class Lista05Pratica {
             System.out.println("Menor");
         }
     }
+
 }
 
 
