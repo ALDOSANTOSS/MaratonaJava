@@ -15,8 +15,8 @@ public class Aula07EstruturaDeRepeticao {
 
         } while (numero > 100);
 
-        for (int numero1=0; numero1 < 10; numero1++){
-            System.out.println("Respota do for "+numero1);
+        for (numero=0; numero < 10; numero++){
+            System.out.println("Respota do for "+numero);
         }
 
 
@@ -24,3 +24,4 @@ public class Aula07EstruturaDeRepeticao {
     }
 
 }
+
